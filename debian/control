@@ -1,0 +1,29 @@
+Source: plymouth-theme-regolith
+Section: misc
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.4.0
+Rules-Requires-Root: no
+Vcs-Browser: https://github.com/regolith-linux/plymouth-theme-regolith-text
+
+Package: plymouth-theme-regolith
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ plymouth,
+ fontconfig-config,
+ fonts-dejavu-core | ttf-dejavu-core,
+Provides:
+ plymouth-theme,
+Breaks: plymouth-drm (<< 0.9.0-6~)
+Description: boot animation, logger and I/O multiplexer - Regolith theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the following Hamara Linux theme.

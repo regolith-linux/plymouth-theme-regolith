@@ -1,0 +1,5 @@
+plymouth-theme-regolith (1.0.0-1) focal; urgency=medium
+
+  * Initial release, copy from hamara. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 03 May 2020 10:08:04 -0700
