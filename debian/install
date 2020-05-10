@@ -1,2 +1,3 @@
 *.png usr/share/plymouth/themes/regolith
 regolith.plymouth usr/share/plymouth/themes/regolith
+regolith.grub usr/share/plymouth/themes/regolith
