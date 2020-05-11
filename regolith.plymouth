@@ -1,6 +1,6 @@
 [Plymouth Theme]
 Name=Regolith, based on Hamara
-Description=regolith boot logo
+Description=regolith boot animation
 ModuleName=two-step
 
 [two-step]
