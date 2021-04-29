@@ -1,9 +1,10 @@
-plymouth-theme-regolith (1.1.0-1) hirsute; urgency=medium
+plymouth-theme-regolith (1.1.1-1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Take in budgie-artwork, remove non plymouth files.
+  * Replace budgie text and art with regolith
 
- -- Regolith Linux <regolith.linux@gmail.com>  Mon, 26 Apr 2021 22:02:17 -0700
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 28 Apr 2021 22:06:49 -0700
 
 plymouth-theme-regolith (1.0.3-1) focal; urgency=medium
 

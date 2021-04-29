@@ -1,4 +1,4 @@
-#  ubuntu-budgie-logo.script - boot splash plugin
+#  ubuntu-regolith-logo.script - boot splash plugin
 #  Copyright (C) 2016-2018 HEXcube and David Mohammed
 #
 #  derived from ubuntu-mate-logo.script - boot splash plugin
@@ -22,7 +22,7 @@
 #  02111-1307, USA.
 #
 #  Written by: Alberto Milone <alberto.milone@canonical.com>
-#  Adapted for Ubuntu Budgie by: HEXcube <hexcubed@gmail.com> and David Mohammed <fossfreedom@ubuntu.com>
+#  Adapted for Regolith by: HEXcube <hexcubed@gmail.com> and David Mohammed <fossfreedom@ubuntu.com>
 #
 #  Based on the example provided with the "script plugin" written by:
 #              Charlie Brej   <cbrej@cs.man.ac.uk>
@@ -172,20 +172,20 @@ fun StringToInteger (str) {
 # New background colour
 # #2c001e --> 0.16, 0.00, 0.12
 #
-# Color for Ubuntu Budgie
+# Color for Regolith
 # #383c4a -->  0.2196, 0.2353, 0.2902
 Window.SetBackgroundTopColor (0.2196, 0.2353, 0.2902);     # Nice colour on top of the screen fading to
 Window.SetBackgroundBottomColor (0.2196, 0.2353, 0.2902);  # an equally nice colour on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 if (bits_per_pixel == 4) {
-    logo_filename = "ubuntu-budgie-logo16.png";
+    logo_filename = "ubuntu-regolith-logo16.png";
     progress_dot_off_filename = "progress_dot_off16.png";
     progress_dot_on_filename = "progress_dot_on16.png";
     password_field_filename = "password_field16.png";
     question_field_filename = "password_field16.png";
 } else {
-    logo_filename = "ubuntu-budgie-logo.png";
+    logo_filename = "ubuntu-regolith-logo.png";
     progress_dot_off_filename = "progress_dot_off.png";
     progress_dot_on_filename = "progress_dot_on.png";
     password_field_filename = "password_field.png";

@@ -1,10 +1,10 @@
 [Plymouth Theme]
-Name=Ubuntu Budgie Text
-Description=Text mode theme based on Ubuntu Budgie logo theme
+Name=Regolith Text
+Description=Text mode theme based on Regolith logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=Ubuntu Budgie VERSION
+title=Regolith VERSION
 black=0x2d3335
 white=0xffffff
 brown=0x0087ed
