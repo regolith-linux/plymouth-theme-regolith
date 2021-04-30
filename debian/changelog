@@ -1,3 +1,10 @@
+plymouth-theme-regolith (1.1.2-1ubuntu1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Set background to black
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 29 Apr 2021 21:00:15 -0700
+
 plymouth-theme-regolith (1.1.1-1) focal; urgency=medium
 
   [ Ken Gilmer ]

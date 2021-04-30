@@ -38,9 +38,9 @@ text_colour.blue = 1.0;
 
 # Tinted text #988592
 # For mate, use #dedbd2
-tinted_text_colour.red = 0.87;
-tinted_text_colour.green = 0.86;
-tinted_text_colour.blue = 0.82;
+tinted_text_colour.red = 0.0;
+tinted_text_colour.green = 0.0;
+tinted_text_colour.blue = 0.0;
 
 # Action Text - #ffffff - RGB 255 255 255
 action_text_colour.red = 1.0;
