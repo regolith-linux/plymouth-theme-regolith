@@ -38,9 +38,9 @@ text_colour.blue = 1.0;
 
 # Tinted text #988592
 # For mate, use #dedbd2
-tinted_text_colour.red = 0.0;
-tinted_text_colour.green = 0.0;
-tinted_text_colour.blue = 0.0;
+tinted_text_colour.red = 0.87;
+tinted_text_colour.green = 0.86;
+tinted_text_colour.blue = 0.82;
 
 # Action Text - #ffffff - RGB 255 255 255
 action_text_colour.red = 1.0;
@@ -182,15 +182,11 @@ fun StringToInteger (str) {
 }
 
 #-----------------------------------------------------------------------------
-# Previous background colour
-# #300a24 --> 0.19, 0.04, 0.14
-# New background colour
-# #2c001e --> 0.16, 0.00, 0.12
 #
 # Color for Regolith
-# #383c4a -->  0.2196, 0.2353, 0.2902
-Window.SetBackgroundTopColor (0.2196, 0.2353, 0.2902);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.2196, 0.2353, 0.2902);  # an equally nice colour on the bottom
+
+Window.SetBackgroundTopColor (0.0, 0.0, 0.0);     # Nice colour on top of the screen fading to
+Window.SetBackgroundBottomColor (0.0, 0.0, 0.0);  # an equally nice colour on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 if (bits_per_pixel == 4) {
@@ -346,12 +342,6 @@ fun animate_progress_indicator (progress, time) {
 
 #    Debug ("progress = " + progress + ", time = " + time + " times switched = " + global.times_bullets_switched + " on_off " + global.on_off);
 
-#    if (global.times_bullets_switched == NULL)
-#        global.times_bullets_switched = 5;
-
-#    if (global.on_off == NULL)
-#        global.on_off = 0;
-
     if ((progress - global.progress_time) >= 0.7) {
         global.progress_time = progress;
 
@@ -371,17 +361,6 @@ fun animate_progress_indicator (progress, time) {
                               global.times_bullets_switched, 1.0);
         }
     }
-
-
-    # Start setting bullets to "on" with translucency
-#    for (index = 0; index <= 5; index++) {
-#        opacity = 0.0;
-#        while (opacity <= 1.0) {
-#            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
-#                              index, opacity);
-#            opacity += 0.1;
-#        }
-#    }
 }
 
 

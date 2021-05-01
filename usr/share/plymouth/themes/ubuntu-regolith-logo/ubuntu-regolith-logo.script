@@ -38,9 +38,9 @@ text_colour.blue = 1.0;
 
 # Tinted text #988592
 # For mate, use #dedbd2
-tinted_text_colour.red = 0.0;
-tinted_text_colour.green = 0.0;
-tinted_text_colour.blue = 0.0;
+tinted_text_colour.red = 0.87;
+tinted_text_colour.green = 0.86;
+tinted_text_colour.blue = 0.82;
 
 # Action Text - #ffffff - RGB 255 255 255
 action_text_colour.red = 1.0;
@@ -173,9 +173,8 @@ fun StringToInteger (str) {
 # #2c001e --> 0.16, 0.00, 0.12
 #
 # Color for Regolith
-# #383c4a -->  0.2196, 0.2353, 0.2902
-Window.SetBackgroundTopColor (0.2196, 0.2353, 0.2902);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.2196, 0.2353, 0.2902);  # an equally nice colour on the bottom
+Window.SetBackgroundTopColor (0.0, 0.0, 0.0);     # Nice colour on top of the screen fading to
+Window.SetBackgroundBottomColor (0.0, 0.0, 0.0);  # an equally nice colour on the bottom
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 if (bits_per_pixel == 4) {
