@@ -1,3 +1,18 @@
+plymouth-theme-regolith (1.2.2) focal; urgency=medium
+
+  [ Regolith Linux ]
+  * fix: build dep updates to appease bullseye
+
+  [ Khosrow Moossavi ]
+  * chore: remove obsolete package broadcast action
+  * feat: enable github action to test pull requests
+  * feat: enable github action to publish to unstable
+  * feat: enable github action to publish to testing
+  * feat: enable github action to prepare release
+  * fix: create release tag from correct git sha
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 04 Feb 2025 02:34:49 +0000
+
 plymouth-theme-regolith (1.2.1) focal; urgency=medium
 
   [ Ken Gilmer ]
